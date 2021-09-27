@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color:#cbe0e6		;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color:DodgerBlue
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>My homework</h1>
+
+  <h3>20218069 쑨자위안</h3>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#dbebf0;">
+  <p>  <a href="homework1-1.html">homework1-1</a></p>
+  <p>  <a href="homework1-2.html">homework1-2</a></p>
+  <p>  <a href="homework1-3.html">homework1-3</a></p>
+  <p>  <a href="homework1-4.html">homework1-4</a></p>
+  <p>  <a href="homework1-5.html">homework1-5</a></p>
+
+  </div>
+
+  
+  <div class="column" style="background-color:#edf5f7;">
+  
+  </div>
+  <div class="column" style="background-color:#dbebf0;">
+  
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
