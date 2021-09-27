@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Two Column</title>
+
+<style>
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:times;""font-weight:normal;""font-size:10px">
+
+<div class="row">
+  <div class="column">
+    <h2>Claude Monet</h2>
+    <p>From Wikipedia, the free encyclopedia
+        <br>
+Oscar-Claude Monet (UK: /ˈmɒneɪ/, US: /moʊˈneɪ, məˈ-/, French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.[1] During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions before nature, especially as applied to plein air (outdoor) landscape painting.[2] The term "Impressionism" is derived from the title of his painting Impression, soleil levant, exhibited in the 1874 Salon des Refusés ("exhibition of rejects") initiated by Monet and his associates as an alternative to the Salon.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Edgar Degas</h2>
+    <p>From Wikipedia, the free encyclopedia
+        <br>
+Edgar Degas (UK: /ˈdeɪɡɑː/, US: /deɪˈɡɑː, dəˈɡɑː/;[1][2] born Hilaire-Germain-Edgar De Gas, French: [ilɛːʁ ʒɛʁmɛ̃ ɛdɡaʁ də ɡa]; 19 July 1834 – 27 September 1917) was a French Impressionist artist famous for his pastel drawings and oil paintings.</p>
+  </div>
+  
+
+</div>
+
+</body>
+</html>
